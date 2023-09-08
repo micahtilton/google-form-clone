@@ -1,0 +1,22 @@
+body {
+    background-color: #F5F5F5;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-form {
+    width: 600px;
+    margin: auto;
+}
+
+.question-wrapper {
+    font-size: 14px;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+}
+
+.submit-button {
+    margin: 20px;
+}
