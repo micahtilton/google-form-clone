@@ -10,7 +10,8 @@
 </head>
 <body>
 <form action="#" class="main-form">
-    <div class="question-wrapper">
+    <div class="info-header-top"></div>
+    <div class="question-wrapper header-info-wrapper">
         <div class="info-header-title">Google Form Clone</div>
         <div class="info-header-description">Here are all of the question types</div>
         <div class="full-divider"></div>
@@ -18,17 +19,20 @@
     </div>
 
     <div class="question-wrapper">
+        <h2>Please type your first name.</h2>
         <label for="text-question-1">First Name: </label>
-        <input type="text" name="text-question-1" id="text-question-1">
+        <input type="text" name="text-question-1" id="text-question-1" placeholder="First name">
     </div>
 
     <div class="question-wrapper">
+        <h2>Please type your last name.</h2>
         <label for="text-question-2">Last Name: </label>
-        <input type="text" name="text-question-2" id="text-question-2">
+        <input type="text" name="text-question-2" id="text-question-2" placeholder="Last name">
     </div>
 
     <div class="question-wrapper">
-        <input type="radio" name="radio-question" id="radio-question-1">
+        <h2>How are you feeling? Choose one.</h2>
+        <input type="radio" name="radio-question" id="radio-question-1" value="Happy">
         <label for="radio-question-1">Happy</label><br>
 
         <input type="radio" name="radio-question" id="radio-question-2">
@@ -39,6 +43,7 @@
     </div>
 
     <div class="question-wrapper">
+        <h2>How are you feeling?</h2>
         <input type="checkbox" name="checkbox-question" id="checkbox-question-1">
         <label for="checkbox-question-1">Angry</label><br>
 

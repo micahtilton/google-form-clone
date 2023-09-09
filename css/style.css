@@ -4,7 +4,7 @@ body {
 }
 
 .main-form {
-    width: 600px;
+    width: 700px;
     margin: auto;
 }
 
@@ -19,4 +19,36 @@ body {
 
 .submit-button {
     margin: 20px;
+}
+
+.info-header-top {
+    background-color: gray;
+    height: 10px;
+    margin: 0px 20px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.header-info-wrapper {
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 0px;
+}
+
+.info-header-title {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 12;
+}
+
+.full-divider {
+    height: 1px;
+    background-color: #E0E0E0;
+    margin: 10px -20px;
+}
+
+input[type=text] {
+    border: transparent;
 }
